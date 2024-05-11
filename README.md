@@ -13,7 +13,7 @@ Funkcjonalności:
 
 3) Dodawanie nowych przepisów: Zalogowani użytkownicy będą mogli dodawać nowe przepisy do aplikacji. Formularz dodawania przepisu będzie zawierał pola na nazwę, opis, listę składników, instrukcje oraz zdjęcie dania.
 
-4) Zarządzanie ulubionymi przepisami: Zalogowani użytkownicy będą mogli dodawać przepisy do ulubionych oraz usuwać je stamtąd.
+4) Edycja dodanych przez użytkownika przepisów
 
 5) Wyszukiwanie przepisów: Możliwość szybkiego wyszukiwania przepisów po nazwie dania lub składnikach.
 
