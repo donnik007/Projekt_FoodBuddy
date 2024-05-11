@@ -2,7 +2,7 @@
   <div class="wrapper">
     <header>
       <h1>
-        <img src="../logo.png" alt="FoodBuddy Logo" class="logo">
+        <img src="/logo.png" alt="FoodBuddy Logo" class="logo">
         FoodBuddy
       </h1>
     </header>
