@@ -11,8 +11,10 @@
         <li><router-link :to="{ name: 'Home' }">Strona główna</router-link></li>
         <li><router-link :to="{ name: 'About_us' }">O nas</router-link></li>
         <li><router-link :to="{ name: 'Find_recipe' }">Znajdź przepis</router-link></li>
+        <li><router-link :to="{ name: 'Cookbook' }">Cookbook</router-link></li>
         <li v-if="isLoggedIn"><router-link :to="{ name: 'Add_recipe' }">Dodaj przepis</router-link></li>
         <li v-if="isLoggedIn"><router-link :to="{ name: 'My_recipes' }">Moje przepisy</router-link></li>
+        <li v-if="isLoggedIn"><router-link :to="{ name: 'Chatbot' }">Chatbot</router-link></li>
         <li v-if="!isLoggedIn"><router-link :to="{ name: 'Login' }">Zaloguj</router-link></li>
         <li v-if="isLoggedIn"><router-link to="/" @click.native="logout">Wyloguj</router-link></li>
       </ul>

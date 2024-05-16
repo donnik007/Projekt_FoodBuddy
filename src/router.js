@@ -33,6 +33,16 @@ export default createRouter({
         name: 'My_recipes',
         component: () => import('./views/My_recipes.vue')
       },
+      {
+        path: '/Cookbook',
+        name: 'Cookbook',
+        component: () => import('./views/Cookbook.vue')
+      },
+      {
+        path: '/Chatbot',
+        name: 'Chatbot',
+        component: () => import('./views/Chatbot.vue')
+      },
   ]
 })
 

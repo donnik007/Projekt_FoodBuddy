@@ -3,7 +3,7 @@
       <h1>Baza Przepisów</h1>
       <input v-model="searchTerm" type="text" placeholder="Szukaj">
       <label for="time">Czas przygotowania (min): {{ maxTime }}</label>
-      <input v-model="maxTime" type="range" id="time" name="time" min="0" max="120">
+      <input v-model="maxTime" type="range" id="time" name="time" min="0" max="200">
       <multiselect
       v-model="selectedIngredients"
       :options="ingredients"
