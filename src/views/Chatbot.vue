@@ -1,4 +1,9 @@
 <template>
+  <div>
+    <h1>chat</h1>
+  </div>
+</template>
+ <!--<template>
     <div>
       <div v-for="(message, index) in messages" :key="index">
         <p>{{ message.text }}</p>
@@ -6,7 +11,7 @@
       <input v-model="newMessage" @keyup.enter="sendMessage" placeholder="Type a message..." />
     </div>
   </template>
-  
+ 
   <script>
   import { ref } from 'vue';
   import { TextAnalyticsClient, AzureKeyCredential } from "@azure/ai-text-analytics";
@@ -38,4 +43,4 @@
       };
     }
   };
-  </script>
+  </script>-->
